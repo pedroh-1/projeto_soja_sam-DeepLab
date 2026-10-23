@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Ambientes virtuais
+venv/
+.venv/
+env/
+.env
+
+# IDEs
+.idea/
+.vscode/
+
+# Datasets
+data/
+Soja aruco/
+
+# Pesos de modelos e checkpoints
+weights/
+weights_*/
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.h5
+
+# Logs de experimentos
+wandb/
+runs/
+
+# Arquivos grandes / compactados
+*.zip
+*.tar
+*.tar.gz
+*.7z
